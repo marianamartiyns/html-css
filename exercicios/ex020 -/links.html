@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-elemente
+            >   = children
+        */
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        a{
+            color: coral;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(153, 74, 45);
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: cornflowerblue;
+        }
+        
+        a::before{
+            content: '☼ ''⚐ ';
+        }
+        a::after {
+            content:' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(170, 170, 170);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/marianamartiyns" target="_blank">Repositorio Github</a></li>
+        <li><a href="https://www.youtube.com/channel/UCiP2tOO8zRo47GFd5rc8rkA"
+        target="_blank">Canal da Gegele</a></li>
+        <li><a href="https://www.linkedin.com/in/profile-mariana-martins/
+        ">Meu linkedin</a></li>
+    </ul>
+</body>
+</html>

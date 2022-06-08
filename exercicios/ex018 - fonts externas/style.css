@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:black;
+}
+
+h1{
+    font-family:'Tiro Devanagari Hindi', serif ;
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}

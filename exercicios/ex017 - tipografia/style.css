@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* 
+    recomedacões tem um !
+    Medidas absolutas:
+    cm, mm, in(polegada), px!, pt, pc
+
+    Medidas Relativas:
+    em!, ex, rem, vw, %
+    16px = 1em
+    */
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+    /* Pode ser: Ligher, normal, bold, bolder */
+    text-decoration: underline;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: italic;
+    /* Shorthand: Font
+
+    ordem: font-style -> font-weight -> font-size -> font-family.
+    */
+}
